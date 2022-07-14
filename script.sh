@@ -1,3 +1,5 @@
-cd  ../../../../ECLAIR
+cp ../../../../* ./
+cd ../../../../ECLAIR/ECLAIR
+
 mkdir tmp && cd tmp
 echo "hello-world" > helloWorld.txt
