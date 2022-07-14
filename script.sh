@@ -1,4 +1,4 @@
-cp -r ../../../../ECLAIR/ ./
+cp -r ../../../../ECLAIR/* ./
 cd ECLAIR
 
 mkdir tmp && cd tmp
