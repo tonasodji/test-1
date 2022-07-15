@@ -1,6 +1,6 @@
 cp -r ../../../../ECLAIR/* ./
 
-- cd ECLAIR
+cd ECLAIR
 # Prepare for build
 ../prepare.sh Debug
 # Analyze the project
