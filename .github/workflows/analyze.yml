@@ -15,11 +15,11 @@ jobs:
         chmod 777 script.sh
         ./script.sh
    
-    #- name: Upload Artifact
-      #uses: actions/upload-artifact@v3
-      #with:
-        #name: artefatti
-        #path: results.sarif
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: artifact
+        path: ECLAIR/out_CRC_16_Release_MC3
       
     
     - name: Upload SARIF file
