@@ -11,5 +11,6 @@ mkdir -p ~/github/$CI_PROJECT_PATH/$CI_JOB_ID && rm -f ~/github/$CI_PROJECT_PATH
 scp out_CRC_16_Release_MC3/.data/PROJECT.ecd ~/github/$CI_PROJECT_PATH/$CI_JOB_ID
 # Publish ECLAIR report link
 echo "https://eclairit.com:3787/fs/home/emelin/github/$CI_PROJECT_PATH/$CI_JOB_ID/PROJECT.ecd"
+cp report.sarif out_CRC_16_Release_MC3/reports
 #Create the ECLAIR badge
 anybadge --label=ECLAIR --value=default --file=badge.svg
