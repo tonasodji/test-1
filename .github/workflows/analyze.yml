@@ -18,7 +18,7 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: artifact
+        name: artifacts
         path: ECLAIR/out_CRC_16_Release_MC3
       
     
