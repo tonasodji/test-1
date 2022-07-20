@@ -23,5 +23,4 @@ echo "GITHUB_REF: ${GITHUB_REF}"
 cp report.sarif out_CRC_16_Release_MC3/reports
 #Create the ECLAIR badge
 anybadge --label=ECLAIR --value=default --file=badge.svg
-touch README.md
 echo "![example workflow](https://github.com/$GITHUB_REPOSITORY/actions/workflows/analyze.yml/badge.svg)">README.md
