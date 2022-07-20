@@ -22,7 +22,9 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: artifacts
-        path: ECLAIR/out_CRC_16_Release_MC3
+        paths: |
+          - ECLAIR/out_CRC_16_Release_MC3
+          - ECLAIR/badge.svg
       
     
     - name: Upload SARIF file
