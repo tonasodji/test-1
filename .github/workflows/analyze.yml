@@ -5,6 +5,8 @@ on:
   pull_request:
   push:
     branches: main
+env:
+    CI_PROJECT_PATH: /tonasodji/test-1
 
 jobs:
   build:
